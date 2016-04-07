@@ -40,7 +40,7 @@ There are many ways to develop software. We suggest you to work as much as possi
 1. Each pull request allows other HZI developers to review your code and find potential bugs.
   - Please discuss with [Andreas](https://github.com/abremges) or [Thorsten](https://github.com/trklingen) how you want to handle this!
 1. Branches allow you to work on multiple features by still providing a working version on your release or master branch. It's your task to decide how you want to name your branches but we suggest you to use or extend our simple naming schema (See Branch/Pull Request schema).
-1. Pull Request allow you to work according to modern Development methodologies like [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
+1. Pull Requests allow you to work according to modern Development methodologies like [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
 
 **Tip**: GitHub offers multiple CI integration plugins like [Travis CI](https://docs.travis-ci.com/user/getting-started/).
 
