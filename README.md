@@ -1,10 +1,8 @@
 # GitHub { [hzi-bifo](https://github.com/hzi-bifo), [dzif](https://github.com/dzif) } manual
 
-We are using [Github](https://github.com/) for our Projects. GitHub allows us to develop in a collaborative and productive manner.
+We are using [Github](https://github.com/) for our Projects. GitHub allows us to productively develop versioned code in a collaborative and well-documented manner.
 
-When your initial project is no longer just a draft, you can check in your code in our HZI GitHub repository.
-This document describes how you can make your project part of our HZI GitHub organization.
-Furthermore it gives you advices how to structure, document and version your repository.
+When your initial project is no longer just a draft, you can check your code into our HZI GitHub repository. This document describes how you can make your project part of our HZI GitHub organization and gives you advice on how to structure, document and version your repository.
 
 ## Getting started
 
@@ -25,7 +23,7 @@ If you first want to experiment with git and GitHub UI before starting to work o
 
 ## Project repositories
 
-- Just tell us ([Andreas](https://github.com/abremges), [Thorsten](https://github.com/trklingen) or [Gary](https://github.com/foobarx)) your project name, or open an [Issue](https://github.com/hzi-bifo/GitHub/issues/new): we will create a (private) repository for you and give you admin privileges.
+- Just tell us -- ([Andreas](https://github.com/abremges), [Thorsten](https://github.com/trklingen) or [Gary](https://github.com/foobarx)) -- your project name, or open an [Issue](https://github.com/hzi-bifo/GitHub/issues/new): we will create a (private) repository for you and give you admin privileges.
 **At this point, we might revisit the development guidelines.**
   - Example: https://github.com/hzi-bifo/RidgeRace
 - If you want, you can also work in your own (private) repository. Please add collaborators as needed/requested.
@@ -36,8 +34,8 @@ If you first want to experiment with git and GitHub UI before starting to work o
 
 There are many ways to develop software. We suggest you to work as much as possible according to the GitHub Flow: https://guides.github.com/introduction/flow/. The GitHub Flow has multiple advantages:
 
-1. Fine grained commits allow you an easy roll back to older project states, especially if your project maybe breaks with the latest commit. Furthermore it allows us to follow and understand your project development.
-1. Each pull request allows other HZI developers to review your code and find potential bugs.
+1. Fine grained commits allow you an easy roll back to older project states, especially if your project breaks with the latest commit. Furthermore it allows us to follow and understand your project development.
+1. Each pull request allows other BIFO and DZIF developers to review your code and find potential bugs.
   - Please discuss with [Andreas](https://github.com/abremges) or [Thorsten](https://github.com/trklingen) how you want to handle this!
 1. Branches allow you to work on multiple features by still providing a working version on your release or master branch. It's your task to decide how you want to name your branches but we suggest you to use or extend our simple naming schema (See Branch/Pull Request schema).
 1. Pull Requests allow you to work according to modern Development methodologies like [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration).
@@ -46,11 +44,11 @@ There are many ways to develop software. We suggest you to work as much as possi
 
 #### Branch/Pull Request schema
 
-Create a branch with your commits. The branch name should follow one the patterns: 
+Create a branch with your commits. The branch name should follow one of the following patterns: 
 - `fix/name-of-fix`
 - `feat/name-of-feature`
 
-Once you would like to merge your changes into `master` add a description to the pull request outlining the reason for the changes. This does not have to be more than a few sentences if the changes are minor or obvious.
+Once you would like to merge your changes into `master`, add a description to the pull request outlining the reason for the changes. This does not have to be more than a few sentences if the changes are minor or obvious.
 
 #### Versioning
 
@@ -84,6 +82,7 @@ Use [GitHub markdown](https://guides.github.com/features/mastering-markdown/) fo
 1. Version
 1. Short description
 1. User guide
+  - **Tip:** Providing an installation guide and a quick example usage (e.g. using your test files) at the start of the user guide, will make it easier for new users to use your software.
 1. Developer guide
 
 --
