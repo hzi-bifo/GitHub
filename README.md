@@ -2,7 +2,7 @@
 
 We are using [Github](https://github.com/) for our Projects. GitHub allows us to productively develop versioned code in a collaborative and well-documented manner.
 
-When your initial project is no longer just a draft, you can check your code into our HZI GitHub repository. This document describes how you can make your project part of our HZI GitHub organization and gives you advice on how to structure, document and version your repository.
+When you start a new project, please check it into repository in our HZI-BIFO GitHub organization as early as possible, to adhere to the group's archiving policy (you should have received a copy and there is [a version of it available on the forum](https://discourse.bifo.helmholtz-hzi.de/t/bifo-archiving-policy-publications-and-code/562) after logging in). The README here describes how you can implement this policy by making your project part of our HZI GitHub organization and gives you advice on how to structure, document and version your repository.
 
 ## Getting started
 
@@ -26,9 +26,6 @@ If you first want to experiment with git and GitHub UI before starting to work o
 - Just tell us -- ([Andreas](https://github.com/abremges), [Thorsten](https://github.com/trklingen) or [Gary](https://github.com/foobarx)) -- your project name, or open an [Issue](https://github.com/hzi-bifo/GitHub/issues/new): we will create a (private) repository for you and give you admin privileges.
 **At this point, we might revisit the development guidelines.**
   - Example: https://github.com/hzi-bifo/RidgeRace
-- If you want, you can also work in your own (private) repository. Please add collaborators as needed/requested.
-**Prior to publication, we will discuss licensing and [fork](https://help.github.com/articles/fork-a-repo/) your (public) repository.**
-  - Example: https://github.com/hzi-bifo/traitar
 
 ## Development workflow 
 
